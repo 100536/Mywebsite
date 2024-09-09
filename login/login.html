@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="login.js"></script>
 </head>
 <body>
 <div id="particles-js"></div>
 <div class="animated bounceInDown">
     <div class="container">
-        <form name="form1" class="box" action="success_page.html" method="POST">
+        <span class="error animated tada" id="msg" style="display:none;"></span>
+        <form name="form1" class="box" onsubmit="validateForm(event)" method="POST">
             <h4>Admin<span>Dashboard</span></h4>
             <h5>Sign in to Lucas Askamp's Portfolio.</h5>
             <input type="text" name="user" placeholder="User" autocomplete="on" required>
@@ -21,4 +23,3 @@
 </div>
 </body>
 </html>
-
