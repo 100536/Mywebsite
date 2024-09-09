@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
 
+
 body, html {
+  height: 100%;
+  margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #1d243d;
-  padding: 0;
-  margin: 0;
-  background-image: url('./img/login.png');
+  background-image: url('./img/img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-    background-position: center;
 }
 
 #particles-js {
