@@ -1,15 +1,13 @@
 // Vooraf ingestelde gebruikersnaam en wachtwoord
 const correctUser = "LucasA";
-const correctPassword = "Welkom123";
+const correctPassword = "123";
 
 function validateForm(event) {
-    event.preventDefault(); // Voorkom standaard formulierverzending
+    event.preventDefault();
 
-    // Haal de waarden van de invoervelden op
     const user = document.forms["form1"]["user"].value;
     const password = document.forms["form1"]["password"].value;
 
-    // Controleer of de gebruikersnaam en wachtwoord correct zijn
     if (user === correctUser && password === correctPassword) {
         window.location.href = "../admin/admin.html";
     } else {
