@@ -30,7 +30,7 @@ footer {
     flex-direction: column;
     left: 60%;
     transform: translate(-50%, -50%);
-    text-align: left
+    text-align: left;
 }
 
 .title h1, .title h2, .title h3 {
